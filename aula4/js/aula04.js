@@ -47,3 +47,11 @@ let teste = [...produtos, 'Ovo', 'Pera']
 // ver indice de um valor no array
 // let pos = nome_array.indexOf('Valor')
 let pos = produtos.indexOf('Uva')
+
+/*
+
+Aqui estão alguns exemplos de uso do método indexOf:
+
+var frutas = [“maçã”, “banana”, “cereja”, “tâmara”]; frutas.indexOf(“banana”); // retorna 1 frutas.indexOf(“laranja”); // retorna -1 frutas.indexOf(“cereja”, 2); // retorna 2 frutas.indexOf(“maçã”, -1); // retorna -1
+
+*/
