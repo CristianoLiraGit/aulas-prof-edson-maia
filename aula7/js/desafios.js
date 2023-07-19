@@ -18,7 +18,7 @@ document.write(`<div class="card">
 
 /* Desafio 02 */
 const dia = 10
-const mes = 09
+const mes = 9
 const ano = 2021
 const FraseDoDia = "Seja curioso. Leia de tudo. Tente coisas novas. O que as pessoas chamam de inteligência se resume a curiosidade."
 const Autoria = "Aaron Swartz"
