@@ -15,8 +15,8 @@ function olaMundo2() {
 }
 
 // CHAMAR A FUNCAO = executar ela
-olaMundo()
-document.write(olaMundo2())
+olaMundo() /* Olá mundo sem retorno */
+document.write(olaMundo2()) /* Olá mundo com retorno*/
 
 let x = 2
 let y = 1
