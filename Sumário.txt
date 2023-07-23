@@ -1,0 +1,7 @@
+Aula 08 - Manipulando HTML com JavaScript
+Aula 09 - Manipulando CSS com JavaScript
+Aula 10 - Funções em JavaScript
+Aula 11 - Eventos no DOM com JS
+Aula 12 - Estruturas if else e switch case
+Aula 13 - Estruturas for, forEach, while
+Aula 14 - Calculadora de IMC
