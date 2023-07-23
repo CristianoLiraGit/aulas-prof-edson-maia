@@ -42,6 +42,6 @@ botao2.addEventListener('blur', function () {
 
 // 1 click do mouse
 botaoEnviar.addEventListener('click', function (event) {
-    event.preventDefault()
+    event.preventDefault() /* Evitar o comportamento padrão do botão submit. Serve para  impedir que a página seja recarregada, no caso do exercício. */
     console.log('Clicou no botão Enviar')
 })
