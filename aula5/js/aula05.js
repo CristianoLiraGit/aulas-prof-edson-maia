@@ -46,7 +46,9 @@ console.log("IMC " + imc.toFixed(2))
 // ALTERAR/ATUALIZAR VALOR de propriedade
 pessoa.nome = "Edson Maia"
 produtos.descricao = ['Arroz']
+produtos.descricao.unshift('Farinha')
 produtos.preco = [4.99]
+produtos.preco.unshift(10.50)
 
 // Usando spreed operator
 produtos.descricao = [...produtos.descricao, 'Feijão', 'Trigo']
