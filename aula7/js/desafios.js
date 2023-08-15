@@ -57,3 +57,22 @@ document.write(`<div class="jogo">
                 <p>${jogo.anoLancamento}</p>
                 </div>
               `)
+
+/*Frase do dia com data do sistema*/
+var hoje = new Date();
+var hora = hoje.getHours() + ':' + hoje.getMinutes() + ':' + hoje.getSeconds();
+
+var data = hoje.getDate() + '/' + (hoje.getMonth() + 1) + '/' + hoje.getFullYear();
+console.log(data);
+
+const FraseDia = "Seja curioso. Leia de tudo. Tente coisas novas. O que as pessoas chamam de inteligência se resume a curiosidade."
+const Autor = "Aaron Swartz"
+
+document.write(`<div class="citacao">
+                <h2>Frase do Dia</h2>
+                <h3>${data}</h3>
+                <h3>hora: ${hora}</h3>
+                <blockquote>&#10077;${FraseDoDia}&#10078;</blockquote>
+                <p>${Autoria}</p>
+                </div>
+               `)
