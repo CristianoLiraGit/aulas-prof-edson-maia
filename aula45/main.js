@@ -12,6 +12,7 @@ class Pessoa
     _idade // tipo Integer
     _peso  // tipo Float ou Real
     _altura // tipo Float ou Real
+    _imc
 
     //! métodos = funções ou comportamentos
     // método construtor
@@ -20,12 +21,19 @@ class Pessoa
         this._idade = idade
         this.peso = peso
         this._altura = altura
+        this._imc = this._peso / (this._altura * this._altura)
+    }
+
+    calculaImc(){
+        return (this._peso / (this._altura * this._altura)).toFixed(2)
     }
 }
 
-// criar novo objeto a partir da class, instanciar
+//* criar novo objeto a partir da class, instanciar
 let pessoa1 = new Pessoa('Cristiano Barbosa', 37, 85.5, 1.82)
 let pessoa2 = new Pessoa('Inácia Barbosa', 64, 63.5, 1.63)
+let pessoa3 = new Pessoa('Andreza Barbosa', 20, 45.3, 1.41)
+let pessoa4 = new Pessoa('Edilma Barbosa', 50, 63.5, 1.52)
 /*
 console.log(pessoa1)
 console.log(pessoa2)
@@ -45,3 +53,5 @@ console.log(pessoa2)
 
 console.log(pessoa1)
 console.log(pessoa2)
+console.log(pessoa3)
+console.log(pessoa4)
