@@ -8,9 +8,10 @@
 class Pessoa
 {
     // atributos = variáveis ou características
-    nome // tipo String
-    idade // tipo Integer
-    peso  // tipo Float ou Real
+    _nome // tipo String - o underline está indicando que os atributos são protegidos (privados)
+    _idade // tipo Integer
+    _peso  // tipo Float ou Real
+    _altura // tipo Float ou Real
 
     // métodos = funções ou comportamentos
 }
@@ -26,10 +27,12 @@ console.log(pessoa2)
 pessoa1.nome = 'Cristiano'
 pessoa1.idade = 40
 pessoa1.peso = 84.5
+pessoa1.altura = 1.76
 
 pessoa2.nome = 'Maria'
 pessoa2.idade = 63
 pessoa2.peso = 70.5
+pessoa2.altura = 1.63
 
 console.log(pessoa1)
 console.log(pessoa2)
