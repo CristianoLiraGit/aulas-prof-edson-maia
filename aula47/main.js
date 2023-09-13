@@ -5,7 +5,7 @@
 // objetos = são abstrações ou representações de "coisas" que existem no mundo real
 // objeto = instância ou objeto do tipo | objeto é um tipo de dados
 
-// 
+//! Aula 47 - Métodos acessores get e set
 
 class Pessoa
 {
