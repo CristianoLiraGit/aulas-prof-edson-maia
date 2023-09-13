@@ -19,7 +19,7 @@ class Pessoa
     constructor (nome, idade, peso, altura) {
         this._nome = nome
         this._idade = idade
-        this.peso = peso
+        this._peso = peso
         this._altura = altura
         this._imc = this._peso / (this._altura * this._altura)
     }
