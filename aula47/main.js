@@ -5,7 +5,7 @@
 // objetos = são abstrações ou representações de "coisas" que existem no mundo real
 // objeto = instância ou objeto do tipo | objeto é um tipo de dados
 
-//! Aula 47 - Métodos acessores get e set
+//! Aula 47 - Métodos acessores get e set - são usados para controlar a manipulação de atribuição e acesso aos valores que fazem parte dos atributos das classes.
 
 class Pessoa
 {
@@ -26,8 +26,47 @@ class Pessoa
         this._imc = this._peso / (this._altura * this._altura)
     }
 
+    //! set imc
     calculaImc(){
         return (this._peso / (this._altura * this._altura)).toFixed(2)
+    }
+
+    //! get = pegar
+    get nome() {
+        return this._nome
+    }
+
+    get idade() {
+        return this._idade
+    }
+
+    get peso() {
+        return this._peso
+    }
+
+    get altura() {
+        return this._altura
+    }
+
+    get imc(){
+        return this._imc
+    }
+
+    //! set = configurar, editar, alterar
+    set nome(novoNome){
+        this._nome = novoNome
+    }
+
+    set idade(novaIdade){
+        this._idade = novaIdade
+    }
+
+    set peso(novoPeso){
+        this._peso = novoPeso 
+    }
+
+    set altura(novaAltura){
+        this._altura = novaAltura
     }
 }
 
