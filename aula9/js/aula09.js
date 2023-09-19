@@ -17,7 +17,7 @@ titulo.style.borderRadius = "5px";
 
 let box = document.querySelectorAll('.box')
 box[0].setAttribute('class', 'escura')
-box[0].removeAttribute('class')
+box[0].removeAttribute('class') // remove, também, outras classes, se houver.
 
 /////// MODOS DE COR ///////
 let tela = document.querySelector('main')
