@@ -4,7 +4,7 @@ let carros = ['Fusca', 'Brasília', 'Gurgel']
 
 /* FOR = para faca */
 /* i = iterador, interacao ou index */
-for (let i = 0; i <= 5; i++) {
+for (let i = 1; i <= 5; i++) {
     document.write(i + " ")
 }
 
