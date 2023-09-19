@@ -35,7 +35,7 @@ botao1.addEventListener('mouseover', function () {
     console.log('Foco no botão 1')
 })
 
-// focusout ou blur quando sai o focu
+// focusout ou blur quando sai o foco
 botao2.addEventListener('blur', function () {
     console.log('Foco no botão 2')
 })
