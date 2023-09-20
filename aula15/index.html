@@ -16,7 +16,7 @@
     <label for="nota1">Nota 1</label>
     <input type="number" name="nota1" id="nota1" min='0.0' max='10.0' step="0.1" autofocus required onBlur='validarNumero(this)' />
     </div>
-    
+    <!--A função onBlur criada serve para validar o número do campo input em questão (this). Caso seja digitado um número inválido, e for tentar passar para o outro input (perder o foco no campo), vai aparecer a mensagem criada pela função onBlur(this)-->
     <div class='form-group'>
     <label for="nota2">Nota 2</label>
     <input type="number" name="nota2" id="nota2" min='0.0' max='10.0' step="0.1" required onBlur='validarNumero(this)' />
