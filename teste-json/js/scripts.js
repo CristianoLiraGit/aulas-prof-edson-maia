@@ -22,3 +22,26 @@ const objs = [
     },
     
 ]
+
+// console.log(objs)
+
+// JSON
+// converter objeto para json (Aqui é enviando os dados para a API)
+const jsonData = JSON.stringify(objs)
+
+// console.log(objs) // Vai imprimir no console dois arrays de objetos
+
+console.log(jsonData) // Vai imprimir no console os objetos com o formato de json válido.
+console.log(`O tipo é ${typeof jsonData}.`)
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+// Receber os dados da API e transformá-los em objeto do JavaScript (o JavaScript não lida com JSON)
+// Converter JSON para objeto:
+const objData = JSON.parse(jsonData)
+console.log(`O tipo é ${typeof objData}.`)
+
+objData.map((pessoa, chave)=>{
+    console.log(pessoa.nome, chave)
+    console.log(`Temos ${pessoa.nome} na posição ${chave}.`)
+})
