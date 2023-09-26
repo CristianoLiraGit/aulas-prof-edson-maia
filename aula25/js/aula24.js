@@ -1,6 +1,6 @@
 /* Aula 24 Desafio Refatoracao */
 
-// ELEMENTOS DA 1a CARTA APENAS
+// ELEMENTOS DA 1ª CARTA APENAS
 let imgFoto       = document.querySelector('#foto')
 let nome          = document.querySelector('#nome')
 let nacionalidade = document.querySelector('#nacionalidade')
