@@ -17,7 +17,7 @@ class Pessoa
     //! métodos = funções ou comportamentos
     // método construtor
     constructor (nome, idade, peso, altura) {
-        this._nome = nome
+        this._nome = nome // Para esta classe Pessoa (this), o atributo _nome receberá o parâmetro "nome", passado entre parênteses.
         this._idade = idade
         this.peso = peso
         this._altura = altura
