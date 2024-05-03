@@ -6,7 +6,7 @@ let pessoa = {
     idade  : 40,
     peso   : 83.5,
     altura : 1.75,
-    doador : false,
+    doador : false, // a vírgula aqui no final não é obrigatória
 }
 
 let produtos = {
